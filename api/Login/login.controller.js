@@ -1,5 +1,5 @@
 const { create, getLogins, getLoginsById, updateLogins, deleteLoginsById } = require("./login.services");
-// const { genSaltSync, hashSync} = require("bcrypt");
+const { genSaltSync, hashSync} = require("bcrypt");
 const { get } = require("express/lib/response");
 var nodemailer = require('nodemailer');
 
